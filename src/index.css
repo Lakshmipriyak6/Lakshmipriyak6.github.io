@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-800;
+}
+
+/* Reusable hover card animation */
+.hover-card {
+  @apply transition-all duration-300 ease-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-6px) scale(1.01);
+}
